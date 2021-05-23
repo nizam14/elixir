@@ -1,0 +1,462 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heroSec,
+.heroSectow {
+    height: 840px;
+    position: relative;
+}
+
+.heroImg {
+    background-color: #000;
+    background-image: url(./IMG/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heroImgtow {
+    background-image: url(http://elixir.ae/wp-content/uploads/2021/01/123.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heroInnerContents {
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+
+.heroSectow .heroInnerContents {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.heroHeading {
+    position: relative;
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: .1em;
+    padding-left: 60px;
+    margin: 0 0 30px;
+}
+
+.heroHeading:before {
+    content: '';
+    width: 39px;
+    height: 22px;
+    position: absolute;
+    background: url(./IMG/yellow.png) no-repeat 0 0;
+    background-size: 28px;
+    left: 15px;
+    top: -8px;
+}
+
+.heroDescription {
+    border-left: 4px solid #f6ae28;
+    padding-left: 15px;
+
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.heroImgtow .heroDescription {
+    border: 0 !important;
+    padding-left: 15px;
+
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.viewImgs,
+.viewinfo {
+    padding: 50px 20px 20px 20px;
+    background: #2B2B37;
+}
+
+.viewImgs .imgOne {
+    color: grey;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://elixir.ae/wp-content/uploads/2021/01/123.jpg');
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.adsInfo h2 {
+    color: #EEAA2D;
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.adsInfo p {
+    color: #FFF;
+    /* font-family: "Roboto", Sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.adsInfo a {
+    color: #EEAA2D;
+    /* font-family: "Poppins", Sans-serif; */
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.adsInfo {
+    position: relative;
+    padding: 50px 0;
+}
+
+.adsInfo:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    left: 50%;
+    top: 0;
+}
+
+.infoCont.pl {
+    padding-left: 40px;
+}
+
+.boxesSec {
+    padding: 100px 0;
+}
+
+.box {
+    width: 300px;
+    height: 290px;
+    background: #fff;
+    padding: 20px;
+    border: 4px solid #ececec;
+    position: relative;
+}
+
+.box h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.box p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: #6F6F6E;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 0 0;
+    display: block;
+    font-weight: bold;
+}
+
+.box.box2 a,
+.box.box3 a,
+.box.box5 a,
+.box.box6 a {
+    text-align: right;
+}
+
+.box.box1,
+.box.box4 {
+    padding-left: 60px;
+}
+
+.box.box4,
+.box.box5,
+.box.box6 {
+    padding-top: 110px;
+    padding-right: 50px;
+}
+
+.box.box1 .icons {
+    /* left: 20px; */
+    padding-top: 25px;
+}
+
+.box.box2 .icons {
+    right: 30px;
+    padding-top: 25px;
+}
+
+.box.box3 .icons {
+    bottom: 10px;
+    right: 0px;
+}
+
+.box.box4 .icons {
+    top: 20px;
+    left: 50px;
+}
+
+.box.box5 .icons {
+    top: 35px;
+    right: 40px;
+}
+
+.box.box6 .icons {
+    top: 20px;
+    right: 0px;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.icons img {
+    width: 80%;
+}
+
+.box.box2,
+.box.box3 {
+    padding-right: 60px;
+}
+
+.box .counts {
+    position: absolute;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box.box1 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2020/12/6.png) no-repeat;
+    background-size: 100%;
+    left: -40px;
+    top: -15px;
+}
+
+.box.box2 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2020/12/7.png) no-repeat;
+    background-size: 100%;
+    left: 80%;
+    top: -30px;
+}
+
+.box.box3 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2021/02/7.png) no-repeat;
+    background-size: 100%;
+    left: 80%;
+    top: -30px;
+}
+
+.box.box4 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2020/12/8.png) no-repeat;
+    background-size: 100%;
+    left: -40px;
+    bottom: -40px;
+    padding-top: 27px;
+    text-align: left;
+}
+
+.box.box5 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2020/12/9.png) no-repeat;
+    background-size: 100%;
+    left: 80%;
+    bottom: -40px;
+    text-align: right;
+    padding-top: 28px;
+}
+
+.box.box6 .counts {
+    background: url(https://elixir.ae/wp-content/uploads/2021/02/9.png) no-repeat;
+    background-size: 100%;
+    left: 80%;
+    bottom: -40px;
+    text-align: right;
+    padding-top: 28px;
+}
+
+.subscribeSec {
+    padding: 40px 25px;
+    background-color: #EDAA1E;
+}
+
+.btnSubscr {
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    background-color: #61CE7000;
+    border-radius: 0;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid #000;
+}
+
+.ourPartnersSec {
+    padding: 100px 0;
+}
+
+.ourPartnersSec h2 {}
+
+.ourPartnersSec img {
+    width: 150px;
+}
+
+.ContactUS {
+    background-color: #2B2B37;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.ContactUS h1 {
+    color: #EEAA2D;
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.ContactUS p {
+    color: #FFF;
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.ContactUS i {
+    color: #D1D1D1;
+    font-size: 28px;
+}
+
+.ContactUS ul {
+    display: inline-flex;
+}
+
+.ContactUS ul li {
+    margin: 7px;
+    list-style: none;
+}
+
+.footerSec {
+    padding: 100px 0;
+}
+
+.footerSec ul {
+    text-align: right;
+}
+
+.footerSec ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer ul li a {
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    transition: 0.3s all;
+
+}
+/* .btn_fa {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+} */
+/* #navbarToggleExternalContent {
+    visibility: visible;
+opacity: 0;
+} */
+.footer ul li a:hover {
+    border-bottom: 2px solid #EEAA2D;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    color: #eea91e!important;
+    font-size: 18px;
+    font-weight: 100!important;
+}
+.nav-item a {
+    color: white!important;
+    margin: 0px 20px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+@media (max-width: 959.95px) {
+    .heroHeading {
+        font-size: 14px;
+    }
+
+    .heroDescription {
+        font-size: 24px;
+    }
+
+    .adsInfo:before {
+        display: none;
+    }
+
+    .infoCont.pl {
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+
+    .box {
+        width: 80%;
+
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .box .counts {
+        width: 80px;
+        height: 80px;
+    }
+
+    .subscribeSec .col-md-6.col-sm-12.text-end {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+}
